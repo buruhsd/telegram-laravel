@@ -1,0 +1,21 @@
+{
+    "name": "aljawad/telegramlogs",
+    "description": "Put log messages from your Laravel app to your Telegram bot",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Al Jawad",
+            "email": "buruhsd@outlook.co.id"
+        }
+    ],
+    "minimum-stability": "dev",
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aljawad\\Telegramlogs\\TelegramLogServiceProvider"
+            ]
+        }
+    }
+}
